@@ -1,0 +1,59 @@
+<%- include("partials/header.ejs") %>
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container-fluid py-5">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <h1 class="display-5 fw-bold">Mmesoma Read a Book</h1>
+        <p class="fs-4">
+          Welcome to the bookish junk drawer—where my half-baked takes on fully
+          published works go. <br />
+          Too dramatic for Goodreads, too nerdy for group chats. <br />
+          Proceed with low expectations
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img
+          src="/images/Diary-rafiki.svg"
+          alt="girl on desk reading book"
+          class="img-fluid"
+          style="max-width: 180px"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-bg-dark rounded-3">
+      <h2 class="dark">Share Your Take</h2>
+      <p class="dark">
+        Read something recently? <br />
+        Leave a short review, a quick thought, or just a feeling. <br />
+        Every opinion counts.
+      </p>
+      <a href="/compose">
+        <button class="btn btn-outline-light" type="button">
+          Write Something
+        </button>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+      <h2>See What Others Think</h2>
+      <p>
+        Not sure what to read next? <br />
+        Browse through honest reviews and quiet reflections. <br />
+        Let someone else’s words guide you. <br />
+      </p>
+      <a href="/posts">
+        <button class="btn btn-outline-secondary" type="button">
+          Read posts
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer.ejs") %>

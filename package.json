@@ -1,0 +1,18 @@
+{
+  "name": "blog-post",
+  "version": "1.0.0",
+  "main": "blog-app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node blog-app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
