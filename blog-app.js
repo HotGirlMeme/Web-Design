@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.send("Hello from the web!");
+  res.render("home.ejs");
 });
 
 app.get("/compose", (req, res) => {
